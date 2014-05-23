@@ -1,0 +1,20 @@
+{
+	"name" : "j-pauli/proxy-pattern",
+	"type" : "library",
+	"description" : "PHP Proxy pattern",
+	"homepage" : "http://jpauli.github.io",
+	"license" : "BSD-2-Clause",
+	"authors" : [{
+			"name" : "Julien Pauli",
+			"email" : "jpauli@php.net"
+		}
+	],
+	"require" : {
+		"php" : ">=5.6"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"" : "library/"
+		}
+	}
+}
